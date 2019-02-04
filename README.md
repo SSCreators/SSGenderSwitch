@@ -1,6 +1,6 @@
 # SSGenderSwitch
 
-#ScreenShot
+# ScreenShot
 
 ![ssgender](https://user-images.githubusercontent.com/23047866/52215388-f4a49b80-28b9-11e9-9829-f20a681e7d1d.gif)
 
