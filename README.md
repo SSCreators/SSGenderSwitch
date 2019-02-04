@@ -2,7 +2,9 @@
 
 #ScreenShot
 
-![img_30d88f4df099-1](https://user-images.githubusercontent.com/23047866/52214978-0f2a4500-28b9-11e9-92b8-2eaa8823c3fb.jpeg)
+![ssgender](https://user-images.githubusercontent.com/23047866/52215388-f4a49b80-28b9-11e9-9829-f20a681e7d1d.gif)
+
+
 
 
 # Usage
