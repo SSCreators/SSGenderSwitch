@@ -1,5 +1,10 @@
 # SSGenderSwitch
 
+#ScreenShot
+
+![img_30d88f4df099-1](https://user-images.githubusercontent.com/23047866/52214978-0f2a4500-28b9-11e9-92b8-2eaa8823c3fb.jpeg)
+
+
 # Usage
 
 You can create the view through code or InterfaceBuilder
