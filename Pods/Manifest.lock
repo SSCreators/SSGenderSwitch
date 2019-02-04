@@ -1,0 +1,16 @@
+PODS:
+  - SSEasyLayout (1.0.2)
+
+DEPENDENCIES:
+  - SSEasyLayout
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SSEasyLayout
+
+SPEC CHECKSUMS:
+  SSEasyLayout: c5669cefee563721b16f5aab4c021fefa4f8216c
+
+PODFILE CHECKSUM: 996acbdff904655fee4780f9dcc6649acece9d7b
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01196CB55D0C91D10D43FE2D79F55032 /* Pods-SSGenderSwitchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D51A00821EE7B7C1550A22ABF2C3B42E /* Pods-SSGenderSwitchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BB9B3A9A534E16A373292909973C154 /* Pods-SSGenderSwitchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6B42B5E95E883670AE81CBB0908CEE /* Pods-SSGenderSwitchTests-dummy.m */; };
+		0D4A3236CC9D123930FA2263223A95CE /* Pods-SSGenderSwitchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E372CFEB4C46F0DBA529D82E8EA6FAAB /* Pods-SSGenderSwitchUITests-dummy.m */; };
+		11CF20535F51200DB4F4AB178DA66790 /* SSEasyLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C583924E418307945CC18312B3008EE /* SSEasyLayout-dummy.m */; };
+		147F4B0ACBF57B5E7EB63304DEC66B23 /* SSEasyLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2C03189CC5F88C21C6B5D317897030 /* SSEasyLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1553CFEBC9FA836895636E588776782B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2487E816FCE2DFD44A8EC278D89CF969 /* Pods-SSGenderSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA70D8B23A7D84D65C283C1E6695CD91 /* Pods-SSGenderSwitch-dummy.m */; };
+		538E3E8D71084B96604F9EE0B9A9D22F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		81FDACAD02716663B6B521002CD8FAD9 /* SSEasyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AA38B84878BF63A71D2182B372213A /* SSEasyLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A79799518E7D6BB37A9483DE093B58A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		B90D9CA114CF5AB334F337B3EDC790D6 /* Pods-SSGenderSwitchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74474A2997E138AC5AFDE4F32E882D9D /* Pods-SSGenderSwitchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA2500F46D543E2F8217FF1D3A915804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C3B9DED7DA1E63757AB967F4937770FE /* SSEasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C83345D2C778BEF2E3E7EC5710364D8 /* SSEasyLayout.m */; };
+		EBA08E6B0C3926E722070FAD9691CCF8 /* Pods-SSGenderSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F095B08C220AE4D58179314CE57DB9 /* Pods-SSGenderSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBAB819C03608613BEC2B65B5A855E9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AEF9E14AC3A123F21A1B755CE3FC178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3576ABEA37672FE87553F3BA7A8090DE;
+			remoteInfo = "Pods-SSGenderSwitch";
+		};
+		7F924B4A7E3F1D3B12E57E4D7D9BEFBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3576ABEA37672FE87553F3BA7A8090DE;
+			remoteInfo = "Pods-SSGenderSwitch";
+		};
+		B310A23DC4307BD925D221AF6E9FD9A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90EC4B389A1C7110E57B725577F9E636;
+			remoteInfo = SSEasyLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045F7E8024EA4B0610565DFFBBCA0AAF /* SSEasyLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSEasyLayout-prefix.pch"; sourceTree = "<group>"; };
+		055493FB1B988F52A7B0456008690CAC /* Pods-SSGenderSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSGenderSwitch.debug.xcconfig"; sourceTree = "<group>"; };
+		0C2C03189CC5F88C21C6B5D317897030 /* SSEasyLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSEasyLayout-umbrella.h"; sourceTree = "<group>"; };
+		19AA38B84878BF63A71D2182B372213A /* SSEasyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSEasyLayout.h; path = SSEasyLayout/SSEasyLayout.h; sourceTree = "<group>"; };
+		1B95FBDCAB4E4B5AE5C5F09EE925610E /* Pods-SSGenderSwitchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSGenderSwitchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20A42D07858F965364F17AC407F32FA3 /* SSEasyLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSEasyLayout.xcconfig; sourceTree = "<group>"; };
+		32B25C24753778BB6CE74DA1E2E11E7B /* Pods-SSGenderSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSGenderSwitch.release.xcconfig"; sourceTree = "<group>"; };
+		3C583924E418307945CC18312B3008EE /* SSEasyLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSEasyLayout-dummy.m"; sourceTree = "<group>"; };
+		4C658045F29FF41611FBC5913EEFD7DD /* Pods-SSGenderSwitchUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSGenderSwitchUITests-frameworks.sh"; sourceTree = "<group>"; };
+		51C223C4D9232471330F20C09ADA1921 /* Pods_SSGenderSwitchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSGenderSwitchTests.framework; path = "Pods-SSGenderSwitchTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CFD952B9CB0AA1DC4846C2D5F5AAD6 /* Pods-SSGenderSwitchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSGenderSwitchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56DC829E0AFD592B6D747F743B420391 /* Pods-SSGenderSwitch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSGenderSwitch-frameworks.sh"; sourceTree = "<group>"; };
+		5EF171F4893B50C2E2E85BC06B73A8EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60842DB85BCEACE63A5735324439D402 /* SSEasyLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSEasyLayout.framework; path = SSEasyLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		618FE61B6BCEAED48DB6CDF83B896D28 /* Pods-SSGenderSwitch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSGenderSwitch-acknowledgements.plist"; sourceTree = "<group>"; };
+		6959831D679A28E2200B92E0244630BA /* Pods-SSGenderSwitchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSGenderSwitchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C83345D2C778BEF2E3E7EC5710364D8 /* SSEasyLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSEasyLayout.m; path = SSEasyLayout/SSEasyLayout.m; sourceTree = "<group>"; };
+		6DCEFCABD0792789E5A5E2DC2359A5E7 /* Pods-SSGenderSwitchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSGenderSwitchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FBD3B43F003E816DBC53701F1C89DED /* SSEasyLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSEasyLayout.modulemap; sourceTree = "<group>"; };
+		70003E11006B2151B89789CC5AB36E33 /* Pods-SSGenderSwitchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSGenderSwitchTests.release.xcconfig"; sourceTree = "<group>"; };
+		74474A2997E138AC5AFDE4F32E882D9D /* Pods-SSGenderSwitchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSGenderSwitchUITests-umbrella.h"; sourceTree = "<group>"; };
+		79FA851A1B56196EAADA2877AEEF3D47 /* Pods-SSGenderSwitchTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSGenderSwitchTests-resources.sh"; sourceTree = "<group>"; };
+		7C110A0DCED87D530CB7FAB97D7EF3C9 /* Pods_SSGenderSwitchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSGenderSwitchUITests.framework; path = "Pods-SSGenderSwitchUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CAAB4AEE093587FCEBDCDECCF1EF1E /* Pods_SSGenderSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSGenderSwitch.framework; path = "Pods-SSGenderSwitch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9624D43766E4618CEB8387DC6080C33D /* Pods-SSGenderSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSGenderSwitch.modulemap"; sourceTree = "<group>"; };
+		A559FB19B9E114926771163CEE7314BD /* Pods-SSGenderSwitchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSGenderSwitchTests.modulemap"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BBC36BF958E1B4E8EB64562467E39A99 /* Pods-SSGenderSwitchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSGenderSwitchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C116A440CB4FCC9C990BC8AEEC9B42DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C263FD85A68DA102CDD04063A3D1E672 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA70D8B23A7D84D65C283C1E6695CD91 /* Pods-SSGenderSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSGenderSwitch-dummy.m"; sourceTree = "<group>"; };
+		CBFD8F7D5261FEBA8D165A2BD719C5B0 /* Pods-SSGenderSwitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSGenderSwitchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D51A00821EE7B7C1550A22ABF2C3B42E /* Pods-SSGenderSwitchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSGenderSwitchTests-umbrella.h"; sourceTree = "<group>"; };
+		D7DC08540DE15A9E21150CF5A24BE873 /* Pods-SSGenderSwitch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSGenderSwitch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7FF74F9C9E64A837D2E634EE060B0D7 /* Pods-SSGenderSwitchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSGenderSwitchUITests.modulemap"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D8F095B08C220AE4D58179314CE57DB9 /* Pods-SSGenderSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSGenderSwitch-umbrella.h"; sourceTree = "<group>"; };
+		DED0A7DF52840EFAE3AE86CEA2C16AE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF01972123047754440041B71DFD7344 /* Pods-SSGenderSwitchUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSGenderSwitchUITests-resources.sh"; sourceTree = "<group>"; };
+		E372CFEB4C46F0DBA529D82E8EA6FAAB /* Pods-SSGenderSwitchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSGenderSwitchUITests-dummy.m"; sourceTree = "<group>"; };
+		F0A0A984AAC5AA9FD001DE9971651761 /* Pods-SSGenderSwitch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSGenderSwitch-resources.sh"; sourceTree = "<group>"; };
+		F6B56854FF10DD416E9F6454298C007C /* Pods-SSGenderSwitchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSGenderSwitchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA6B42B5E95E883670AE81CBB0908CEE /* Pods-SSGenderSwitchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSGenderSwitchTests-dummy.m"; sourceTree = "<group>"; };
+		FFABF41D770153DFC4346C3463AE0951 /* Pods-SSGenderSwitchTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSGenderSwitchTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC34E6BD0B9290B98214CF56D25F721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1553CFEBC9FA836895636E588776782B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E6DA1BB68CA85DA40F748A6969C092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538E3E8D71084B96604F9EE0B9A9D22F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98493344AEE856D86E37F9A7A9196C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAB819C03608613BEC2B65B5A855E9F /* Foundation.framework in Frameworks */,
+				A79799518E7D6BB37A9483DE093B58A5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D0FC48B6421B1019ABF650A3912E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2500F46D543E2F8217FF1D3A915804 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D404035153A5DBB45CF7AE48D18F6E /* Pods-SSGenderSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				DED0A7DF52840EFAE3AE86CEA2C16AE5 /* Info.plist */,
+				A559FB19B9E114926771163CEE7314BD /* Pods-SSGenderSwitchTests.modulemap */,
+				1B95FBDCAB4E4B5AE5C5F09EE925610E /* Pods-SSGenderSwitchTests-acknowledgements.markdown */,
+				F6B56854FF10DD416E9F6454298C007C /* Pods-SSGenderSwitchTests-acknowledgements.plist */,
+				FA6B42B5E95E883670AE81CBB0908CEE /* Pods-SSGenderSwitchTests-dummy.m */,
+				FFABF41D770153DFC4346C3463AE0951 /* Pods-SSGenderSwitchTests-frameworks.sh */,
+				79FA851A1B56196EAADA2877AEEF3D47 /* Pods-SSGenderSwitchTests-resources.sh */,
+				D51A00821EE7B7C1550A22ABF2C3B42E /* Pods-SSGenderSwitchTests-umbrella.h */,
+				CBFD8F7D5261FEBA8D165A2BD719C5B0 /* Pods-SSGenderSwitchTests.debug.xcconfig */,
+				70003E11006B2151B89789CC5AB36E33 /* Pods-SSGenderSwitchTests.release.xcconfig */,
+			);
+			name = "Pods-SSGenderSwitchTests";
+			path = "Target Support Files/Pods-SSGenderSwitchTests";
+			sourceTree = "<group>";
+		};
+		15D678D217037635F52535EEF505D70D /* SSEasyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				19AA38B84878BF63A71D2182B372213A /* SSEasyLayout.h */,
+				6C83345D2C778BEF2E3E7EC5710364D8 /* SSEasyLayout.m */,
+				F4CA4FA50517E96E8349E92C0B95D4C1 /* Support Files */,
+			);
+			name = SSEasyLayout;
+			path = SSEasyLayout;
+			sourceTree = "<group>";
+		};
+		2CB0019AA1487713354EFC4F90A615B9 /* Pods-SSGenderSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				C116A440CB4FCC9C990BC8AEEC9B42DF /* Info.plist */,
+				9624D43766E4618CEB8387DC6080C33D /* Pods-SSGenderSwitch.modulemap */,
+				D7DC08540DE15A9E21150CF5A24BE873 /* Pods-SSGenderSwitch-acknowledgements.markdown */,
+				618FE61B6BCEAED48DB6CDF83B896D28 /* Pods-SSGenderSwitch-acknowledgements.plist */,
+				CA70D8B23A7D84D65C283C1E6695CD91 /* Pods-SSGenderSwitch-dummy.m */,
+				56DC829E0AFD592B6D747F743B420391 /* Pods-SSGenderSwitch-frameworks.sh */,
+				F0A0A984AAC5AA9FD001DE9971651761 /* Pods-SSGenderSwitch-resources.sh */,
+				D8F095B08C220AE4D58179314CE57DB9 /* Pods-SSGenderSwitch-umbrella.h */,
+				055493FB1B988F52A7B0456008690CAC /* Pods-SSGenderSwitch.debug.xcconfig */,
+				32B25C24753778BB6CE74DA1E2E11E7B /* Pods-SSGenderSwitch.release.xcconfig */,
+			);
+			name = "Pods-SSGenderSwitch";
+			path = "Target Support Files/Pods-SSGenderSwitch";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BA1EEBFF968C2743D9B4C14EE09ACBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15D678D217037635F52535EEF505D70D /* SSEasyLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7BA1EEBFF968C2743D9B4C14EE09ACBF /* Pods */,
+				E9194E0B828644435AA4CAF49F4AC5C5 /* Products */,
+				A9139A30F6FFE7802CEF7136647A3930 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A9139A30F6FFE7802CEF7136647A3930 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CB0019AA1487713354EFC4F90A615B9 /* Pods-SSGenderSwitch */,
+				01D404035153A5DBB45CF7AE48D18F6E /* Pods-SSGenderSwitchTests */,
+				DAF05F0EE94D24769B124D5BE3735469 /* Pods-SSGenderSwitchUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DAF05F0EE94D24769B124D5BE3735469 /* Pods-SSGenderSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C263FD85A68DA102CDD04063A3D1E672 /* Info.plist */,
+				D7FF74F9C9E64A837D2E634EE060B0D7 /* Pods-SSGenderSwitchUITests.modulemap */,
+				6959831D679A28E2200B92E0244630BA /* Pods-SSGenderSwitchUITests-acknowledgements.markdown */,
+				BBC36BF958E1B4E8EB64562467E39A99 /* Pods-SSGenderSwitchUITests-acknowledgements.plist */,
+				E372CFEB4C46F0DBA529D82E8EA6FAAB /* Pods-SSGenderSwitchUITests-dummy.m */,
+				4C658045F29FF41611FBC5913EEFD7DD /* Pods-SSGenderSwitchUITests-frameworks.sh */,
+				DF01972123047754440041B71DFD7344 /* Pods-SSGenderSwitchUITests-resources.sh */,
+				74474A2997E138AC5AFDE4F32E882D9D /* Pods-SSGenderSwitchUITests-umbrella.h */,
+				6DCEFCABD0792789E5A5E2DC2359A5E7 /* Pods-SSGenderSwitchUITests.debug.xcconfig */,
+				52CFD952B9CB0AA1DC4846C2D5F5AAD6 /* Pods-SSGenderSwitchUITests.release.xcconfig */,
+			);
+			name = "Pods-SSGenderSwitchUITests";
+			path = "Target Support Files/Pods-SSGenderSwitchUITests";
+			sourceTree = "<group>";
+		};
+		E9194E0B828644435AA4CAF49F4AC5C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88CAAB4AEE093587FCEBDCDECCF1EF1E /* Pods_SSGenderSwitch.framework */,
+				51C223C4D9232471330F20C09ADA1921 /* Pods_SSGenderSwitchTests.framework */,
+				7C110A0DCED87D530CB7FAB97D7EF3C9 /* Pods_SSGenderSwitchUITests.framework */,
+				60842DB85BCEACE63A5735324439D402 /* SSEasyLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CA4FA50517E96E8349E92C0B95D4C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EF171F4893B50C2E2E85BC06B73A8EF /* Info.plist */,
+				6FBD3B43F003E816DBC53701F1C89DED /* SSEasyLayout.modulemap */,
+				20A42D07858F965364F17AC407F32FA3 /* SSEasyLayout.xcconfig */,
+				3C583924E418307945CC18312B3008EE /* SSEasyLayout-dummy.m */,
+				045F7E8024EA4B0610565DFFBBCA0AAF /* SSEasyLayout-prefix.pch */,
+				0C2C03189CC5F88C21C6B5D317897030 /* SSEasyLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSEasyLayout";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30DA2C698B7E96242D0985451B3CE334 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F4B0ACBF57B5E7EB63304DEC66B23 /* SSEasyLayout-umbrella.h in Headers */,
+				81FDACAD02716663B6B521002CD8FAD9 /* SSEasyLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0A9343B46720D0CF6AE636EA00FF9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA08E6B0C3926E722070FAD9691CCF8 /* Pods-SSGenderSwitch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71D08855942C843DE3A330507ED9CF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90D9CA114CF5AB334F337B3EDC790D6 /* Pods-SSGenderSwitchUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BCCAD64701901D9C6768A79B93A578 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01196CB55D0C91D10D43FE2D79F55032 /* Pods-SSGenderSwitchTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3576ABEA37672FE87553F3BA7A8090DE /* Pods-SSGenderSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC503CC7C30CB70590914929BEC8286 /* Build configuration list for PBXNativeTarget "Pods-SSGenderSwitch" */;
+			buildPhases = (
+				39C28001E95A613E220062291E671EF3 /* Sources */,
+				61E6DA1BB68CA85DA40F748A6969C092 /* Frameworks */,
+				8B0A9343B46720D0CF6AE636EA00FF9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC7F185756CB4F149DDED5860686A11D /* PBXTargetDependency */,
+			);
+			name = "Pods-SSGenderSwitch";
+			productName = "Pods-SSGenderSwitch";
+			productReference = 88CAAB4AEE093587FCEBDCDECCF1EF1E /* Pods_SSGenderSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A1C610E94F10455AC04D81D71504855 /* Pods-SSGenderSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201085B828B40503F92C8DF6BEC1AD88 /* Build configuration list for PBXNativeTarget "Pods-SSGenderSwitchUITests" */;
+			buildPhases = (
+				9565D76BC66E2BFEFB79D6FAC34BD372 /* Sources */,
+				2AC34E6BD0B9290B98214CF56D25F721 /* Frameworks */,
+				E71D08855942C843DE3A330507ED9CF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FC2B9D57855A4BBB8D53263D689519 /* PBXTargetDependency */,
+			);
+			name = "Pods-SSGenderSwitchUITests";
+			productName = "Pods-SSGenderSwitchUITests";
+			productReference = 7C110A0DCED87D530CB7FAB97D7EF3C9 /* Pods_SSGenderSwitchUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90EC4B389A1C7110E57B725577F9E636 /* SSEasyLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23C285D4B8B2E9B2D886240A1FC2437 /* Build configuration list for PBXNativeTarget "SSEasyLayout" */;
+			buildPhases = (
+				AB4618B30AE6E9AC6F413CD0F2F4DEA6 /* Sources */,
+				98493344AEE856D86E37F9A7A9196C29 /* Frameworks */,
+				30DA2C698B7E96242D0985451B3CE334 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSEasyLayout;
+			productName = SSEasyLayout;
+			productReference = 60842DB85BCEACE63A5735324439D402 /* SSEasyLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93CCB31BE719CFB3E43CA2FCD3F40337 /* Pods-SSGenderSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F2316AC2ABC97F4BFCB3B7CA37F640 /* Build configuration list for PBXNativeTarget "Pods-SSGenderSwitchTests" */;
+			buildPhases = (
+				7A15A624D47E500D5131E85A52FE2DBF /* Sources */,
+				F1D0FC48B6421B1019ABF650A3912E7A /* Frameworks */,
+				F7BCCAD64701901D9C6768A79B93A578 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0131739D3E24B2EEA1C9785D426649E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SSGenderSwitchTests";
+			productName = "Pods-SSGenderSwitchTests";
+			productReference = 51C223C4D9232471330F20C09ADA1921 /* Pods_SSGenderSwitchTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E9194E0B828644435AA4CAF49F4AC5C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3576ABEA37672FE87553F3BA7A8090DE /* Pods-SSGenderSwitch */,
+				93CCB31BE719CFB3E43CA2FCD3F40337 /* Pods-SSGenderSwitchTests */,
+				5A1C610E94F10455AC04D81D71504855 /* Pods-SSGenderSwitchUITests */,
+				90EC4B389A1C7110E57B725577F9E636 /* SSEasyLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C28001E95A613E220062291E671EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2487E816FCE2DFD44A8EC278D89CF969 /* Pods-SSGenderSwitch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A15A624D47E500D5131E85A52FE2DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB9B3A9A534E16A373292909973C154 /* Pods-SSGenderSwitchTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9565D76BC66E2BFEFB79D6FAC34BD372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4A3236CC9D123930FA2263223A95CE /* Pods-SSGenderSwitchUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4618B30AE6E9AC6F413CD0F2F4DEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CF20535F51200DB4F4AB178DA66790 /* SSEasyLayout-dummy.m in Sources */,
+				C3B9DED7DA1E63757AB967F4937770FE /* SSEasyLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0131739D3E24B2EEA1C9785D426649E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SSGenderSwitch";
+			target = 3576ABEA37672FE87553F3BA7A8090DE /* Pods-SSGenderSwitch */;
+			targetProxy = 7F924B4A7E3F1D3B12E57E4D7D9BEFBA /* PBXContainerItemProxy */;
+		};
+		42FC2B9D57855A4BBB8D53263D689519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SSGenderSwitch";
+			target = 3576ABEA37672FE87553F3BA7A8090DE /* Pods-SSGenderSwitch */;
+			targetProxy = 2AEF9E14AC3A123F21A1B755CE3FC178 /* PBXContainerItemProxy */;
+		};
+		BC7F185756CB4F149DDED5860686A11D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSEasyLayout;
+			target = 90EC4B389A1C7110E57B725577F9E636 /* SSEasyLayout */;
+			targetProxy = B310A23DC4307BD925D221AF6E9FD9A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0C29207121A25B01255E3072FDF07953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBFD8F7D5261FEBA8D165A2BD719C5B0 /* Pods-SSGenderSwitchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSGenderSwitchTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSGenderSwitchTests/Pods-SSGenderSwitchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F6D01E910FE308831534393189BE52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B25C24753778BB6CE74DA1E2E11E7B /* Pods-SSGenderSwitch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSGenderSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSGenderSwitch/Pods-SSGenderSwitch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B8A1FADAFF963852E6ABF8E5E455C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70003E11006B2151B89789CC5AB36E33 /* Pods-SSGenderSwitchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSGenderSwitchTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSGenderSwitchTests/Pods-SSGenderSwitchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		949DEDFF8691888AADBBDC53CD41CFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A42D07858F965364F17AC407F32FA3 /* SSEasyLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSEasyLayout/SSEasyLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSEasyLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSEasyLayout/SSEasyLayout.modulemap";
+				PRODUCT_MODULE_NAME = SSEasyLayout;
+				PRODUCT_NAME = SSEasyLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		990BF2B09E3FC10A0170EBA3EAB95485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CFD952B9CB0AA1DC4846C2D5F5AAD6 /* Pods-SSGenderSwitchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSGenderSwitchUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSGenderSwitchUITests/Pods-SSGenderSwitchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A3AA3D1E95DDD16561998BC98598904D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A42D07858F965364F17AC407F32FA3 /* SSEasyLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSEasyLayout/SSEasyLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSEasyLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSEasyLayout/SSEasyLayout.modulemap";
+				PRODUCT_MODULE_NAME = SSEasyLayout;
+				PRODUCT_NAME = SSEasyLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A513B110CF26278360923A321AA5E833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCEFCABD0792789E5A5E2DC2359A5E7 /* Pods-SSGenderSwitchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSGenderSwitchUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSGenderSwitchUITests/Pods-SSGenderSwitchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3D49BFB988D0C5BCAA00D54FDA4038D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 055493FB1B988F52A7B0456008690CAC /* Pods-SSGenderSwitch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSGenderSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSGenderSwitch/Pods-SSGenderSwitch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EC503CC7C30CB70590914929BEC8286 /* Build configuration list for PBXNativeTarget "Pods-SSGenderSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D49BFB988D0C5BCAA00D54FDA4038D /* Debug */,
+				5F6D01E910FE308831534393189BE52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201085B828B40503F92C8DF6BEC1AD88 /* Build configuration list for PBXNativeTarget "Pods-SSGenderSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A513B110CF26278360923A321AA5E833 /* Debug */,
+				990BF2B09E3FC10A0170EBA3EAB95485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F2316AC2ABC97F4BFCB3B7CA37F640 /* Build configuration list for PBXNativeTarget "Pods-SSGenderSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C29207121A25B01255E3072FDF07953 /* Debug */,
+				7B8A1FADAFF963852E6ABF8E5E455C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23C285D4B8B2E9B2D886240A1FC2437 /* Build configuration list for PBXNativeTarget "SSEasyLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AA3D1E95DDD16561998BC98598904D /* Debug */,
+				949DEDFF8691888AADBBDC53CD41CFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
